@@ -7,6 +7,7 @@ import EditCommentScreen from "./src/screens/EditCommentScreen"
 
 const Stack = createNativeStackNavigator()
 
+
 export default function App() {
   return (
     <NavigationContainer>

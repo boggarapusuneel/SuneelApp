@@ -26,7 +26,7 @@ export default function CommentsScreen({ navigation, route }: CommentsScreenProp
   useEffect(()=>{
     fetchCommentById(postId)
       .then(res => {
-        console.log("fetchPostById",res)
+
         setComment(res)
       }
       )
